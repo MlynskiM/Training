@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <title>Kółko Krzyżyk</title>
+</head>
+<body>
+    <nav>
+        <div id="navi">
+            <h4>Kółko Krzyżyk </h4>
+        </div>
+    </nav>
+    <main>
+        <div id="game">
+            <div id="container">
+                <!--.box[data-row data-column]*9 od razu tworzy 9 divów -->
+                <div id="1" class="box fa" data-row="0" data-column="0"></div>
+                <div id="2" class="box fa" data-row="0" data-column="1"></div>
+                <div id="3" class="box fa" data-row="0" data-column="2"></div>
+                <div id="4" class="box fa" data-row="0" data-column="3"></div>
+                <div id="5" class="box fa" data-row="1" data-column="0"></div>
+                <div id="6" class="box fa" data-row="1" data-column="1"></div>
+                <div id="7" class="box fa" data-row="1" data-column="2"></div>
+                <div id="8" class="box fa" data-row="1" data-column="3"></div>
+                <div id="9" class="box fa" data-row="2" data-column="0"></div>
+                <div id="10" class="box fa" data-row="2" data-column="1"></div>
+                <div id="11" class="box fa" data-row="2" data-column="2"></div>
+                <div id="12" class="box fa" data-row="2" data-column="3"></div>
+                <div id="13" class="box fa" data-row="3" data-column="0"></div>
+                <div id="14" class="box fa" data-row="3" data-column="1"></div>
+                <div id="15" class="box fa" data-row="3" data-column="2"></div>
+                <div id="16" class="box fa" data-row="3" data-column="3"></div>
+            </div>
+            <div id="score">
+                <div class="boxpl">Player 1 "O"
+                    <span class="sp" id="sp1">Score: 0</span>
+                </div>
+                <div class="boxpl">Player 2 "X"
+                    <span class="sp" id="sp2">Score: 0</span>
+                </div>
+
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
